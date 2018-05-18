@@ -5,61 +5,64 @@
     <title></title>
     <link rel="stylesheet" href="css/estilos.css">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-
+<meta name="viewport" content="width=device-width, user-scalable=no">
   </head>
   <body>
     <div id="contenido">
         <header id="cabecera">
           <h1>Comenzando con la fotografía</h1>
           <nav>
-            <a href="retratos.html" style="text-decoration:underline">Retratos</a>
-            <a href="paisajes.html" style="text-decoration:underline">Paisajes</a>
-            <a href="index.html">Inicio</a>
+            <ul>
+              <li class="actual">Inicio</li>
+              <li>
+                <a href="paisajes.html">Paisajes</a>
+              </li>
+              <li>
+                <a href="retratos.html">Retratos</a>
+              </li>
+            </ul>
           </nav>
         </header>
-        <section>
-            <div id="imagen_central">
-              <img src="imagenes/paisaje1.jpg" alt="">
+            <div id="img">
+              <img src="imagenes/central.jpg" alt="imagen principal">
             </div>
-            <div id="contenedor">
-                <div id="bloque1">
-                  <img src="imagenes/paisaje2.jpg" alt="">
-                </div>
-                <div id="bloque2">
-                  <img src="imagenes/paisaje3.jpg" alt="">
-                </div>
+            <div id="seg">
+              <spam>
+                <a href="paisajes.html">
+                  <img src="imagenes/paisaje.jpg" class="rotate" alt="Imagen de pisajes">
+                </a>
+              <p>Paisajes</p>
+              </spam>
+              <spam>
+                <a href="retratos.html">
+                  <img src="imagenes/retrato.jpg" class="translate" alt="imagen de retratos">
+                </a>
+              <p>Retratos</p>
+              </spam>
             </div>
-        </section>
-    </div>
     <footer>
-      <div id="contacto">
-        <h3>Contacto</h3>
-        <ul>
-          <li>diazamayajoseantonio@gmail.com</li>
-          <li>Jr Sao Paulo 2606 SMP</li>
-          <li>984775538</li>
-        </ul>
+      <div>
+        <h1>Contacto</h1>
+          <p>diazamayajoseantonio@gmail.com</p>
+          <p>Jr Sao Paulo 2606 SMP</p>
+          <p>984775538</p>
       </div>
-      <div id="terminos">
-        <h3>Térmninos</h3>
+      <div>
+        <h1>Térmninos</h1>
         <p>Mantenemos este sitio web como un servicio para sus visitantes y sus clientes. Al utilizar este sitio web o contratar cualquiera de nuestros servicios, usted acepta atenerse a los Términos y Condiciones de nuestra firma</p>
       </div>
-      <div id="redes">
-        <h3>Redes Sociales</h3>
-          <ul>
-            <li> <a href="https://twitter.com/?lang=es">Twitter</a> </li>
-            <li> <a href="https://es-la.facebook.com/">Facebook</a></li>
-            <li> <a href="https://www.instagram.com/?hl=es-la">Instagram</a> </li>
-          </ul>
+      <div>
+        <h1>Redes Sociales</h1>
+            <p> <a href="https://twitter.com/?lang=es">Twitter</a> <p>
+            <p> <a href="https://es-la.facebook.com/">Facebook</a></p>
+            <p> <a href="https://www.instagram.com/?hl=es-la">Instagram</a> </p>
       </div>
-      <div id="derechos">
-        <h3>Derechos</h3>
-        <ul>
-          <li>Jose Antonio</li>
-          <li>Diaz amaya</li>
-          <li>CopyRight</li>
-          <li>2018</li>
-        </ul>
+      <div>
+        <h1>Derechos</h1>
+          <p>Jose Antonio</p>
+          <p>Diaz amaya</p>
+          <p>CopyRight</p>
+          <p>2018</p>
       </div>
     </footer>
   </body>
